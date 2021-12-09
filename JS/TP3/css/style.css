@@ -1,0 +1,32 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22px;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+img {
+  border-radius: 50%;
+}
+
+input[type='button'] {
+  border: 1px solid #006eb0;
+  color: #006eb0;
+  padding: 10px;
+  font-weight: 400;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+input[type='button']:hover, input[type='button']:focus {
+  border: 1px solid #006eb0;
+  background-color: #006eb0;
+  color: #fff;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}

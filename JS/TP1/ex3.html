@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/script.js"></script>
+    <title>Ex3 JS</title>
+</head>
+<body>
+    <form name="numero" id="formulaire">
+        <label>Numéro
+            <input type="text" id="num1" maxlength="2" size="2" required onkeyup="ex3(num1, num2)">
+            <input type="text" id="num2" maxlength="2" size="2" onkeyup="ex3(num2, num3)">
+            <input type="text" id="num3" maxlength="2" size="2" onkeyup="ex3(num3, num4)">
+            <input type="text" id="num4" maxlength="2" size="2" onkeyup="ex3(num4, num5)">
+            <input type="text" id="num5" maxlength="2" size="2">
+        </label>
+        <button type="button" onclick="afficher();">Valider</button>
+    </form>
+    
+</body>
+</html>

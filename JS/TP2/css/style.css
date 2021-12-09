@@ -1,0 +1,19 @@
+body {
+  font-family: sans-serif;
+  font-size: 22px;
+}
+
+body .alert {
+  color: #a53e3e;
+  font-weight: 700;
+}
+
+body .success {
+  color: #41a53e;
+  font-weight: 700;
+}
+
+ul li {
+  list-style-type: none;
+}
+
