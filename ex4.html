@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <title>Ex4 JS</title>
+</head>
+<body>
+    <form id="forms">
+        <fieldset>
+            <legend>Sexe</legend>
+            <input type="radio" name="sexe" id="homme" value="homme">
+            <label for="homme">Homme</label>
+            <input for="femme" type="radio" name="sexe" id="femme" value="femme">
+            <label for="femme">Femme</label>
+        </fieldset>
+        <fieldset>
+            <legend>Informations</legend>
+            <label for="nom">Nom</label>
+            <input type="text" id="nom" minlength="2" onchange="verifierNom();">
+            <label for="prenom">Prenom</label>
+            <input type="text" id="prenom" minlength="2" onchange="verifierPrenom();">
+            <label for="age">Age</label>
+            <input type="text" id="age" onchange="verifierAge();">
+            <label for="pseudo">Pseudo</label>
+            <input type="text" id="pseudo" minlength="4" onchange="verifierPseudo();">
+        </fieldset>
+        <fieldset>
+            <legend>Mot de passe</legend>
+            <label for="password">Mot de passe</label>
+            <input type="password" id="password" minlength="6" onchange="verifierPassword();">
+            <label for="confirmation">Mot de passe (confirmation)</label>
+            <input type="password" id="confirmation" minlength="6" onchange="verifierConfirmation();">
+        </fieldset>
+        <p class="alert" id="erreur"></p>
+        <input value="Verifier" type="button" onclick="verifierSexe();">
+    </form>
+</body>
+</html>
